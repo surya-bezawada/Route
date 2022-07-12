@@ -4,7 +4,7 @@
       :navigation="false"
       :pagination="false"
       :startAutoPlay="true"
-      :timeout="true"
+      :timeout="3000"
       class="carousel"
       v-slot="{ currentSlide }"
     >

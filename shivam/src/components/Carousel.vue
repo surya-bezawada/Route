@@ -34,7 +34,7 @@ export default {
       props.startAutoPlay === undefined ? true : props.pagination
     );
     const timeoutDuration = ref(
-      props.timeout === undefined ? 5000 : props.pagination
+      props.timeout === undefined ? 3000 : props.pagination
     );
     const paginationEnabled = ref(
       props.pagination === undefined ? true : props.pagination
@@ -112,7 +112,7 @@ i {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-color: crimson;
+  background-color: tomato;
   color: white;
 }
 .pagination {
@@ -132,9 +132,9 @@ span {
   height: 20px;
   border-radius: 50%;
   background-color: white;
-  box-shadow: 0 0.5px 3px 0 rgba(0, 0, 0, 0.03), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 .active {
-  background-color: crimson;
+  background-color: tomato;
 }
 </style>

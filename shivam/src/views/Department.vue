@@ -60,7 +60,7 @@
             <div class="ear">
               <a href="/octology"
                 ><img src="../assets/ear.png" class="img-indicate6" alt="" />
-                <h4 class="dep-name6">Otology</h4></a
+                <h4 class="dep-name6">Octology</h4></a
               >
             </div>
           </div>
